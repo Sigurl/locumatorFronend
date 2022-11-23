@@ -1,0 +1,108 @@
+input{
+    display: block;
+    width: 90%;
+    font-size: 1em;
+    padding: .8em;
+    border: solid 1px grey;
+    margin: .5em 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.hero{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    color: white;
+    background:linear-gradient(to bottom right,  #01BAEF,#20BF55), url('../../public/resize.jpg') no-repeat center center / cover ;
+    background-blend-mode: multiply;
+
+}
+
+.form_container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form_container form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.form_container form div{
+    width: 100%;
+}
+
+button{
+    padding: 10px 32px;
+    max-width: 300px;
+    margin-top: 1em;
+    font-size: 1em;
+    background-image: linear-gradient(to bottom right,  #01BAEF,#20BF55);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form h2{
+    color: #20BF55;
+}
+
+.already_acc a{
+   color: #20BF55;
+}
+
+
+    
+
+
+@media screen and (min-width:768px) {
+   .signup_wrapper{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 20px;
+       height: 100vh;
+       overflow: hidden;
+   }
+
+   .hero{
+       height: 100%;
+   }
+   
+   .form_container{
+       height: fit-content;
+       align-items: center;
+       justify-content: center;
+       margin-top: 0;
+       height: 100%;
+       display: flex;
+   }
+
+   form{
+       width: 75%;
+       margin:0 auto;
+       padding: 0 1em;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       border-radius: 5px;
+       
+
+   }
+   input{
+       padding: .7em;
+   }
+
+   form div{
+       margin-left: 1em;
+   }
+
+
+}
+
